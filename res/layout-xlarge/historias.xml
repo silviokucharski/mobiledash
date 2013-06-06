@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/estadoSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxHeight="15dp"
+        android:maxWidth="15dp"
+        android:src="@drawable/flecha_verde" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/estadoSMS"
+        android:text="@string/historia"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco"
+        android:textSize="15dp" />
+
+</RelativeLayout>

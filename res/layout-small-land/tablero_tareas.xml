@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:rowCount="1"
+    android:stretchMode="columnWidth" >
+
+    <LinearLayout
+        android:id="@+id/columna2"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/en_progreso"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blanco" />
+
+        <com.mobiledash.clases.ControlTablero
+            android:id="@+id/tareas3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.mobiledash.clases.ControlTablero>
+
+        <com.mobiledash.clases.ControlTablero
+            android:id="@+id/tareas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.mobiledash.clases.ControlTablero>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/columna1"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="0"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/pendiente"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blanco" />
+
+        <com.mobiledash.clases.ControlTablero
+            android:id="@+id/tareas1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </com.mobiledash.clases.ControlTablero>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/columna3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/completadas"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blanco" />
+    </LinearLayout>
+
+</GridLayout> 

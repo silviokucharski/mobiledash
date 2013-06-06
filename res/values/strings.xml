@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DragDrop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="b">Segunda historia</string>
+    <string name="c">Tercera historia</string>
+    <string name="d">Cuarta historia</string>
+    <string name="usuario">Usuario</string>
+    <string name="historia">Historia</string>
+    <string name="desc_historia">Descripcion de la historia</string>
+    <string name="menu_principal">Menú Principal</string>
+    <string name="tablero">Tablero</string>
+    <string name="historias">Historias</string>
+    <string name="spring">Spring</string>
+    <string name="pendiente">Pendientes</string>
+    <string name="en_progreso">En progreso</string>
+    <string name="completadas">Completadas</string>
+    <string name="proyectos">Proyectos</string>
+    <string name="titulo">Titulo</string>
+    <string name="agregar">Agregar</string>
+    <string name="quitar">Quitar</string>
+    <string name="nueva_historia">Nueva Historia</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="lista_tareas">Lista de Tareas</string>
+    <string name="tareas">Tareas</string>
+    <string name="guardar">Guardar</string>
+    <string name="lista_historias">Lista de Historias</string>
+    <string name="fecha_inicio">"Fecha de inicio: "</string>
+    <string name="evas">EVAs</string>
+
+</resources>

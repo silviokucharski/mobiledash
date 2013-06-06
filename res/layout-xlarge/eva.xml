@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/lista_historias"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/blanco" />
+
+    <ListView
+        android:id="@+id/listaEvas"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_weight="0.21" >
+    </ListView>
+
+</LinearLayout>

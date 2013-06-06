@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ListView
+        android:id="@+id/listaHistoriasProy"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_weight="0.63" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/agregar"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:onClick="agregarClick"
+            android:text="@string/agregar"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/quitar"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:onClick="inicioSesionClick"
+            android:text="@string/quitar"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
